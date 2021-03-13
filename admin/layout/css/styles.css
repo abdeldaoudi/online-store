@@ -1,0 +1,415 @@
+
+/*   Start Main Rules*/
+body
+{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.show-pass
+{
+    position: absolute;
+    right: -15px;
+    top: 10px;
+}
+
+.etoile
+{
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    color: #d84747;
+}
+
+/*   End Main Rules*/
+
+/*   Start  Login form   */
+
+.login
+{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4
+{
+    color: #888;
+}
+.login input
+{
+    margin-bottom: 10px;
+}
+.login .form-control
+{
+    background-color: #EAEAEA;
+}
+.login .btn
+{
+    background-color: #008dde;
+}
+
+
+/*   End Login form   */
+
+/*  Start Bootstrap Edit   */
+
+
+.form-group .col-sm-2 
+{
+    text-align: center;
+    font-weight: bold;
+}
+.navbar
+{
+    padding: 0;
+    margin-bottom: 0;
+}
+.navbar-brand
+{
+    font-size: 16px;
+    color: rgba(255,255,255,.5) !important;
+    padding: 15px 12px;
+    margin-right: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 15px;
+}
+.nav-link {
+    padding: 15px 12px;
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.dropdown-menu
+{
+    background-color: #0984e3;
+}
+
+.dropdown-menu
+{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.dropdown-item
+{
+    color: #fff;
+    font-size: 16px;
+
+}
+
+/*  End Bootstrap Edit   */
+
+/*  Start Dashboard Edit  */
+
+.home-stats .stat
+{
+    background-color: #EEE;
+    color: #FFF;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat i
+{
+    position: absolute;
+    font-size: 80px;
+    left: 20px;
+    top: 25px;
+}
+
+.home-stats .stat .info
+{
+    float: right;
+}
+
+.home-stats .stat a
+{
+    color: #FFF;
+}
+.home-stats .stat a:hover
+{
+    text-decoration: none;
+}
+.home-stats .st-members
+{
+    background-color: #0984e3;
+}
+.home-stats .st-pending
+{
+    background-color: #d63031;
+}
+.home-stats .st-items
+{
+    background-color: #27ae60;
+}
+.home-stats .st-comments
+{
+    background-color: #8e44ad;
+}
+
+.home-stats .stat span
+{
+    display: block;
+    font-size: 50px;
+}
+
+.latest
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.latest-users
+{
+    margin-bottom: 0px;
+}
+
+.latest .toggle-info
+{
+    color: #999;
+    cursor: pointer;
+}
+
+.latest .toggle-info:hover
+{
+    color: #333;
+}
+
+.latest-users .btn-outline-primary,
+.latest-users .btn-outline-success
+{
+    padding: 3px 8px;
+}
+
+.latest-users .btn-outline-success
+{
+    margin-right: 5px;
+}
+
+.latest-users li
+{
+    padding: 5px;
+    overflow: hidden;
+}
+.latest-users li:nth-child(odd)
+{
+    background-color: #EEE;
+}
+.latest-users li a:hover
+{
+    text-decoration: none;
+}
+
+.latest .comment-box
+{
+    margin: 10px 0px;
+}
+
+.latest .comment-box .member-name,
+.latest .comment-box .member-comment
+{
+    float: left;
+}
+
+.latest .comment-box .member-name
+{
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.latest .comment-box .member-name a:hover
+{
+    text-decoration: none;
+}
+
+.latest .comment-box .member-comment
+{
+    width: calc(100% - 100px);
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.latest .comment-box .edit-comment
+{
+    color: rgb(63, 63, 63);
+}
+.latest .comment-box .edit-comment:hover
+{
+    color: #000;
+}
+/*  End Dashboard Edit  */
+
+
+/*  Start Members Edit   */
+
+h1
+{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+.form-control
+{
+    position: relative;
+}
+
+.main-table td
+{
+    background-color: #FFF;
+    vertical-align: middle !important;
+}
+.main-table img
+{
+    width: 50px;
+    height: 50px;
+}
+.main-table tr:first-child td
+{
+    background-color: #333;
+    color: #FFF;
+}
+
+.main-table .btn
+{
+    padding: 3px 10px;
+}
+
+.activate-btn
+{
+    margin-left: 5px;
+}
+/*  End Members Edit   */
+
+/* Start Category Edit */
+
+.radio-space
+{
+    margin-left: 15px;
+}
+
+.ordering a
+{
+    color: #777;
+    text-decoration: none;
+}
+
+.ordering a.active
+{
+    color: #16a085;
+    font-weight: bold;
+}
+
+.category
+{
+    margin-bottom: 20px;
+}
+.category .card-header
+{
+    color: #959595;
+    font-weight: bold;
+}
+.category .card-body
+{
+    padding: 0;
+}
+.category-container
+{
+    margin-bottom: 100px;
+}
+
+.category .cat
+{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.category .cat h3
+{
+    cursor: pointer;
+}
+
+.category .cat .full-view p
+{
+    color: #707070;
+}
+.category .cat .buttons-hidden
+{
+    position: absolute;
+    right: 10px;
+    display: none;
+}
+.category .cat:hover
+{
+    background-color: #EEE;
+}
+.category .cat:hover .buttons-hidden
+{
+    display: block;
+}
+
+.category .cat .buttons-hidden a
+{
+    margin-right: 5px;
+}
+.category .cat h3
+{
+    margin: 0 0 10px;
+}
+.category .card-body hr
+{
+    margin: 0;
+}
+.category .card-body hr:last-child
+{
+    display: none;
+}
+
+.category .cat .visibility
+{
+    color: #d63031;
+    border: 1.5px solid #d63031;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.category .cat .comment
+{
+    color: #6c5ce7;
+    border: 1.5px solid #6c5ce7;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.category .cat .ads
+{
+    color: #2d3436;
+    border: 1.5px solid #2d3436;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+/* End Category Edit */
