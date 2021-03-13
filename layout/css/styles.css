@@ -1,0 +1,238 @@
+
+/*   Start Main Rules*/
+body
+{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+h1
+{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass
+{
+    position: absolute;
+    right: -15px;
+    top: 10px;
+}
+
+.etoile
+{
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    color: #d84747;
+}
+
+/*   End Main Rules*/
+
+/*   Start  Login form   */
+
+
+
+/*   End Login form   */
+
+/*  Start Bootstrap Edit   */
+
+
+.form-group .col-sm-2 
+{
+    text-align: center;
+    font-weight: bold;
+}
+.navbar
+{
+    padding: 0;
+    margin-bottom: 0;
+}
+.navbar-brand
+{
+    font-size: 16px;
+    color: rgba(255,255,255,.5) !important;
+    padding: 15px 12px;
+    margin-right: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 15px;
+}
+.nav-link {
+    padding: 15px 12px;
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.dropdown-menu
+{
+    background-color: #0984e3;
+}
+
+.dropdown-menu
+{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.dropdown-item
+{
+    color: #fff;
+    font-size: 16px;
+
+}
+
+/*  End Bootstrap Edit   */
+
+/*  Start Header  */
+
+.upper-bar
+{
+    background-color: #FFF;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+
+/*  End Header   */
+
+/*Start Login Page*/
+.login-page form
+{
+    max-width: 350px;
+    margin: auto;
+}
+
+.login-page h1
+{
+    color: #b7bbbb;
+}
+
+.login-page h1 span
+{
+    cursor: pointer;
+}
+
+span.selected
+{
+    color: #d84747;
+}
+
+.signup
+{
+    display: none;
+}
+
+/*End Login Page*/
+
+/*  Start Categories Page */
+
+.item-box
+{
+    position: relative;
+}
+
+.item-box .price
+{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #FFF;
+    background-color: #a6a6a9;
+    font-weight: bold;
+    padding: 3px 10px;
+}
+
+.item-box .card-text
+{
+    height: 44px;
+    overflow: hidden;
+}
+/*  End Categories Page */
+
+/* Start Profile Page */
+
+.block
+{
+    margin: 20px 0 0;
+}
+
+.date
+{
+    text-align: right;
+    font-size: 13px;
+    color: #AAA;
+    font-weight: bold;
+}
+
+.approve-msg
+{
+    background-color: rgba(250, 27, 27, .7);
+    position: absolute;
+    top: 50px;
+    color: #FFF;
+    padding: 3px 5px;
+}
+
+/* End Profile Page */
+
+/* Start item infos */
+.item-infos h2
+{
+    padding: 10px;
+
+}
+.item-infos p
+{
+    padding: 10px;
+
+}
+.item-infos ul li
+{
+    padding: 10px;
+}
+
+.item-infos ul li:nth-child(odd)
+{
+    background-color: #e8e8e8;
+
+}
+.item-infos ul li span
+{
+    display: inline-block;
+    width: 120px;
+}
+
+.add-comment textarea
+{
+    margin-bottom: 10px;
+}
+
+.comment-box
+{
+    margin-bottom: 20px;
+}
+
+.comment-box img
+{
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+
+.comment-box p
+{
+    background-color: #ece9e9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* End item infos */
+
